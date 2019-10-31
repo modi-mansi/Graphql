@@ -1,0 +1,14 @@
+{
+    "development": {
+        "config_id": "development",
+        "node_port": 8000,
+        "URI": "mongodb://localhost:27017/graphql_demo",
+        "graphqli": true
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8000,
+        "URI": "mongodb://localhost:27017/graphql_demo_prod",
+        "graphqli": false
+    }
+}
